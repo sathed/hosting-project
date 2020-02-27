@@ -4,10 +4,13 @@ var bucketName = '';
 var keyName = '';
 var object = '';
 
-exports.handler = async (event, context) => {
+exports.handler = async(event, context) => {
     // Determine the winning choice
     // Rock loses to paper
-    // Paper
-  
-    // 
+    // etc.
+
+    // Create the object in S3
+    // bucket/yourname/results.txt
+
+    // Return the string
 };
