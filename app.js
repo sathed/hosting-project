@@ -4,7 +4,8 @@ var bucketName = '';
 var keyName = '';
 var object = '';
 
-exports.handler = async(event, context) => {
+// Don't use 'async'
+exports.handler = (event, context) => {
     // Determine the winning choice
     // Rock loses to paper
     // etc.
